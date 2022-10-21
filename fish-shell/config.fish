@@ -10,4 +10,5 @@ end
 function fish_user_key_bindings
     bind \e 'fish_commandline_prepend sudo'
     bind \e\[3\;5~ 'kill-word' 
+    bind \b backward-kill-word
 end
